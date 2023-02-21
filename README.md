@@ -1,1 +1,1 @@
-# CDN
+# GuruDesk CDN
