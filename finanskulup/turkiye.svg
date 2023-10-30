@@ -25,6 +25,18 @@
       stroke: white;
     }
   </style>
+  <script>
+    //<![CDATA[
+      let svg = document.querySelector("svg[id='tr_map']");
+      let citys = document.querySelectorAll(".city");
+      
+      citys.forEach(city => {
+        city.addEventListener("mouseenter", e => {
+          svg.appendChild(city);
+        });
+      });      
+    //]]>
+  </script>
   <g id="turkiye">
     <g class="city" id="adiyaman">
       <g id="Vector">
