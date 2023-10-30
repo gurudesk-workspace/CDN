@@ -4297,7 +4297,7 @@
   <script>//<![CDATA[
       let svg = document.querySelector("svg[id='tr_map']");
       let citys = document.querySelectorAll(".city");
-      
+      console.log('OOOOooOoooOoooOooo');
       citys.forEach(city => {
         city.addEventListener("mouseenter", e => {
           svg.appendChild(city);
