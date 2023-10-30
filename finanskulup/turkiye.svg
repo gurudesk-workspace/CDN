@@ -1,4 +1,4 @@
-<svg width="1049" height="467" viewBox="0 0 1049 467" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="tr_map" viewBox="0 0 1049 467" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     g.city * {
       transition: .3s;
