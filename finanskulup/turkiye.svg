@@ -4295,7 +4295,6 @@
     </filter>
   </defs>
   <script>
-    >//<![CDATA[
       let svg = document.querySelector("svg[id='tr_map']");
       let citys = document.querySelectorAll(".city");
       
@@ -4303,7 +4302,6 @@
         city.addEventListener("mouseenter", e => {
           svg.appendChild(city);
         });
-      });   
-    //]]>
+      });
   </script>
 </svg>
