@@ -4294,16 +4294,4 @@
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1852_3464" result="shape" />
     </filter>
   </defs>
-  <script>
-    >//<![CDATA[
-      let svg = document.querySelector("svg[id='tr_map']");
-      let citys = document.querySelectorAll(".city");
-      
-      citys.forEach(city => {
-        city.addEventListener("mouseenter", e => {
-          svg.appendChild(city);
-        });
-      });   
-    //]]>
-  </script>
 </svg>
